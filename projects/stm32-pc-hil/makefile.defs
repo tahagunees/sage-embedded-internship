@@ -1,0 +1,15 @@
+# CubeIDE discovers current_pi_sim.c on project refresh. Also support the existing
+# generated makefiles before refresh, without editing generated build files.
+ifeq ($(filter %/current_pi_sim.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/current_pi_sim.o
+-include Core/Src/current_pi_sim.d
+endif
+
+ifeq ($(filter %/pc_sim.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/pc_sim.o
+-include Core/Src/pc_sim.d
+endif
+ifeq ($(filter %/pc_sim_link.o,$(OBJS)),)
+USER_OBJS += ./Core/Src/pc_sim_link.o
+-include Core/Src/pc_sim_link.d
+endif

@@ -1,0 +1,7 @@
+build/
+sdkconfig
+sdkconfig.old
+test_app/build/
+test_app/sdkconfig*
+!test_app/sdkconfig.defaults
+tests/host/build/

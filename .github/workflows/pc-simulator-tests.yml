@@ -1,0 +1,31 @@
+name: PC simulator tests
+
+on:
+  push:
+    paths:
+      - "projects/bldc-pc-simulator/**"
+      - ".github/workflows/pc-simulator-tests.yml"
+  pull_request:
+    paths:
+      - "projects/bldc-pc-simulator/**"
+      - ".github/workflows/pc-simulator-tests.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/bldc-pc-simulator
+
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testleri çalıştır
+        run: python -m unittest discover -s tests -v
+

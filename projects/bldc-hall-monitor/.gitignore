@@ -1,0 +1,9 @@
+Desktop/bin/
+Desktop/obj/
+Firmware/build/
+Firmware/Debug/
+Firmware/Release/
+Firmware/backups/
+.cubeide-validation/
+.vs/
+*.user

@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BldcHallMonitor", "Desktop\BldcHallMonitor.csproj", "{C1F31C4E-747A-4A99-9F5F-84441E82D018}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {C1F31C4E-747A-4A99-9F5F-84441E82D018}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+        {C1F31C4E-747A-4A99-9F5F-84441E82D018}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+        {C1F31C4E-747A-4A99-9F5F-84441E82D018}.Release|Any CPU.ActiveCfg = Release|AnyCPU
+        {C1F31C4E-747A-4A99-9F5F-84441E82D018}.Release|Any CPU.Build.0 = Release|AnyCPU
+    EndGlobalSection
+EndGlobal

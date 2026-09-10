@@ -1,0 +1,75 @@
+# Yerel çalışma ve araç klasörleri
+.vs/
+.vscode/
+.idea/
+.work/
+.chm-extracted/
+.cubeide-validation*/
+**/.validation-workspace/
+**/.cubeide-validation/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# .NET / Visual Studio
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Embedded derleme çıktıları
+**/build/
+**/Debug/
+**/Release/
+**/.pio/
+*.elf
+*.o
+*.obj
+*.map
+*.list
+*.hex
+*.bin
+*.axf
+*.d
+
+# Test bağımlılıkları, loglar ve çalışma çıktıları
+**/test_dependencies/
+captures/
+*.log
+*.csv
+projects/esp32-bldc-hil/hil-board-boot-output.txt
+projects/esp32-bldc-hil/unity-board-output.txt
+
+# Yedek ve geçici kopyalar
+**/*backup*/
+**/backup*/
+*.bak
+*.tmp
+~$*
+
+# Ham çalışma alanları (GitHub için projects/ altında ayıklandı)
+BldcHallMonitor/
+ImperxCameraTester/
+STM32_BldcHall/
+bldc_pc_sim/
+current_sim_work/
+data_protocol_fix/
+esp32-stm32-review/
+esp32_bldc_hil/
+motor_control_app_preview/
+open-bldc-csim/
+stm32_pc_update/
+update_motor_ui.py
+SageStaj.sln
+
+# Üçüncü taraf çevrimdışı dokümantasyon ve kişisel staj belgeleri
+IpxCameraApiDotNetHelp.chm
+BLDC_HIL_Calisma_Gecmisi.md
+*.docx
+*.pdf
