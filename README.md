@@ -30,8 +30,6 @@ Ana hedef şudur:
 - CRC16, session ve sequence denetimli deterministik UART v3 protokolü
 - Hall, encoder, faz akımları, RPM ve tork üreten sanal sensör katmanı
 - Python/PyQt6 ve C#/.NET ile canlı telemetri ve test arayüzleri
-- PC motor modeli için **23 otomatik test — tamamı başarılı**
-- ESP32 HIL uygulaması için kart üzerinde **26 test — tamamı başarılı**
 
 ## Sistem mimarisi
 
