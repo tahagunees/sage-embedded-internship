@@ -53,6 +53,7 @@ Ayrıntılı açıklama için [mimari belgesine](docs/ARCHITECTURE.md), gelişim
 | [PC BLDC Simülatörü](projects/bldc-pc-simulator/) | Python, Tkinter, NumPy/Matplotlib | Üç faz motor, mekanik sistem ve sanal sensör modeli | 23 test geçti |
 | [STM32–PC HIL Firmware](projects/stm32-pc-hil/) | C, STM32 HAL, CubeIDE | PI kontrolünü PC modeliyle kapalı çevrim çalıştırmak | Yazılım hazır; fiziksel UART testi sırada |
 | [ESP32 BLDC HIL](projects/esp32-bldc-hil/) | C, ESP-IDF, FreeRTOS | İlk sanal akım geri besleme yaklaşımı | Kartta 26 test geçti |
+| [ESP32 Canlı Kontrol Paneli](esp32_device_panel/) | C++, ESP-IDF, HTTP | Potansiyometre, dokunmatik giriş ve dahili LED için yerel web paneli | Kartta çalışıyor |
 | [BLDC Hall İzleyici](projects/bldc-hall-monitor/) | C, C#, WinForms | Hall sektörlerini kartta üretmek ve masaüstünde izlemek | Firmware ve arayüz derlendi |
 | [Motor Kontrol Monitörü](projects/motor-control-monitor/) | Python, PyQt6 | Faz, Hall, encoder ve PI telemetrisini görselleştirmek | Demo ve protokol katmanı hazır |
 | [Imperx Kamera Test Aracı](projects/imperx-camera-tester/) | C#, .NET Framework | Kamera bağlantısı, ROI/crop ve kare akışı testi | Demo ve SDK modu hazır |
@@ -197,4 +198,3 @@ Sıradaki kritik deney rotor kilitli halde `0 A → 3 A` referans adımıdır. �
 ## Hazırlayan
 
 **Taha Güneş** — Gömülü sistemler staj çalışmaları, 2026
-
